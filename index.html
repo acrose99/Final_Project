@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+ <link rel="stylesheet" type="text/css" href="styles.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ <script type="text/javascript" src="app.js"></script>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+</head>
+  <body>
+  <main>
+     <header >
+       <h1>Welcome to the Campaign Finance Website</h1>
+     </header>
+      <h3 class="purpose">The Purpose of this site is to inform citizens of the United States of America information regarding their candidates financing. Their is no political motive behind this. We want citizens to be informed about their leaders and make their own opinions. </h3>
+    <h4>Some Helpful Links are : </h4>
+       <ul class="links">
+         <li><a href="https://www.fec.gov/data/candidates/?has_raised_funds=true">Candiate List</a></li>
+         <li><a href="https://www.fec.gov/data/committees/">Commitees List</a></li>  
+       </ul>
+      </h4> 
+    
+        <h4 class="instructions">If you would like to see Commitee financial Information: <h4>
+        <h4 class="idListHeaders">Some IDs for starters: </h4>
+        <ul>
+          <li class="idLists">C00575795 (Hillary for America)</li>
+          <li class="idLists">C00580100 (Donald J. Trump for President, Inc.)</li>
+          <li class="idLists">C00431445 (Obama for America)</li>
+          <li class="idLists">C00581199 (Jill Stein For President)</li>
+          <li class="idLists">C00605568 (Gary Johnson 2016)</li>
+        </ul>
+        <input class="js-commmiteeId" placeholder="C00553560" type="text">
+        <button class="js-goToCommitees">Submit</button>
+        <div class="js-resultsCommitees results"></div>
+        <h4 class="instructions" >If you would like to see financial information about Candiates: <h4>
+        <h4 class="idListHeaders">Some IDs for starters: </h4>
+        <ul>
+          <li class="idLists">P00003392 (Hillary Clinton)</li>
+          <li class="idLists">P80001571 (Donald J. Trump)</li>
+          <li class="idLists">P80003338 (Barack Obama)</li>
+          <li class="idLists">P20003984 (Jill Stein)</li>
+          <li class="idLists">P20002671 (Gary Johnson)</li>
+        </ul>
+        <input class="js-candiatesId" placeholder="P60005915" type="text">
+        <button class="js-goToCandiates">Submit</button>
+        <div class="js-resultsCandiates results"></div>
+        <h3 class="statisticsHeader">Here are some statistics to show the importance of Campaign Finance:</h3>
+        <li class="statistics">$603,297,891 donations above 200$ to all presidential candiates in 2016</li>
+        <li class="statistics">$1,061,703,002 spent by SuperPacs in 2016</li>
+        <li class="statistics">Around $1.2 Billion in Joint Fundraising to politicans</li>
+        <li class="statistics">According to the NYT in 2015, 85% of American Citizens want to change Campaign Finance Laws</li>
+      <p class="credit">*Credit goes to the organzation ProPublica for the API and the FEC for Data. 
+  </main>
+ </body>
+</html> 
