@@ -13,4 +13,4 @@ Things to implement:
 
 *Update API*
 
-*Be Less Preacy*
+*Be Less Preachy*
